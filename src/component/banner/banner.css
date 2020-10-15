@@ -1,0 +1,12 @@
+.showcase{
+    width: 90%;
+    max-width: 1800px;
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.showcase img{
+    width: 100%;
+    object-fit: contain;
+}

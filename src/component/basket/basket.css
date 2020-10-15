@@ -1,0 +1,46 @@
+.basket{
+    margin: 1rem 0;
+    max-width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1rem;
+}
+
+.basket__header{
+    display: flex;
+
+}
+
+.basket__headerTitle {
+    flex: 1;
+    display: flex;
+    align-self: flex-start;
+    /* border-bottom: 1px solid lightgrey; */
+    margin: 1rem 0;
+}
+
+.basket__headerTitle h1{
+    margin: 5px;
+    font-size: 32px;
+}
+
+.basket__headerTotalSum{
+    width: 300px;
+    margin-left: 10px;
+    padding: 15px;
+    background-color: #EAEBEC;
+
+}
+
+.basket__headerCheckBox{
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.basket__headerTotalSum button {
+    padding: 8px;
+    width: 100%;
+    background-color: #F3A847;
+    border: 1px solid #555;
+    cursor: pointer;
+}
